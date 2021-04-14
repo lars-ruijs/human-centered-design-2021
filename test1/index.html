@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>NS Reisplanner</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">
+            <img src="img/Nederlandse_Spoorwegen_logo.svg.png" alt="Logo Nederlandse Spoorwegen">Reisplanner</a>
+    </nav>
+
+    <form>
+        <h1>Kies je reis:</h1>
+        <fieldset>
+            <legend>Tekst input</legend>
+            <label for="datumtext">Welke datum wil je reizen? Bijv. 27-04-2021</label><br>
+            <input name="datumtext" id="datumtext" type="text" placeholder="dd-mm-jjjj" />
+        </fieldset>
+        <fieldset>
+            <legend>Split input</legend>
+            <label for="datumsplit">Welke datum wil je reizen?</label><br>
+            <input name="datumsplit" id="datumsplit" type="number" maxlength="2" placeholder="dd" />
+            <input name="datumsplit" id="datumsplit" type="number" maxlength="2" placeholder="mm" />
+            <input name="datumsplit" id="datumsplit" type="number" maxlength="4" placeholder="jjjj" />
+        </fieldset>
+        <fieldset>
+            <legend>Dropdown input</legend>
+            <label for="datumdrop">Welke datum wil je reizen?</label><br>
+            <select name="datumdrop">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <select name="datumdrop">
+                <option>januari</option>
+                <option>februari</option>
+                <option>maart</option>
+                <option>april</option>
+                <option>mei</option>
+                <option>juni</option>
+                <option>juli</option>
+                <option>augustus</option>
+                <option>september</option>
+                <option>oktober</option>
+                <option>november</option>
+                <option>december</option>
+            </select>
+            <select name="datumdrop">
+                <option>2020</option>
+                <option selected="selected">2021</option>
+                <option>2022</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Datalist input</legend>
+            <label for="datumdata">Welke datum wil je reizen?</label><br>
+            <input list="datumdatadag" />
+            <input list="datumdatamaand" />
+            <input list="datumdatajaar" />
+            <datalist id="datumdatadag">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </datalist>
+            <datalist id="datumdatamaand">
+                <option>januari</option>
+                <option>februari</option>
+                <option>maart</option>
+                <option>april</option>
+                <option>mei</option>
+                <option>juni</option>
+                <option>juli</option>
+                <option>augustus</option>
+                <option>september</option>
+                <option>oktober</option>
+                <option>november</option>
+                <option>december</option>
+            </datalist>
+            <datalist id="datumdatajaar">
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>type="date"</legend>
+            <label for="datumtext">Welke datum wil je reizen?</label><br>
+            <input name="date" id="date" type="date" />
+        </fieldset>
+    </form>
+    
+    <form action="">
+        <h2>Stappen formulier</h2>
+        <fieldset>
+            <legend>Welke maand wil je reizen?</legend>
+            <select name="datumdrop" class="datumdropdown">
+                <option disabled selected>Kies een maand:</option>
+                <option>januari</option>
+                <option>februari</option>
+                <option>maart</option>
+                <option>april</option>
+                <option>mei</option>
+                <option>juni</option>
+                <option>juli</option>
+                <option>augustus</option>
+                <option>september</option>
+                <option>oktober</option>
+                <option>november</option>
+                <option>december</option>
+            </select>
+        </fieldset>
+        <fieldset id="stapdag">
+            <legend>Welke dag wil je reizen?</legend>
+            <input type="radio" name="dag" id="maandag">
+            <label for="maandag">Maandag</label>
+            <input type="radio" name="dag" id="dinsdag">
+            <label for="dinsdag">Dinsdag</label>
+            <input type="radio" name="dag" id="woensdag">
+            <label for="woensdag">Woensdag</label>
+            <input type="radio" name="dag" id="donderdag">
+            <label for="donderdag">Donderdag</label>
+            <input type="radio" name="dag" id="vrijdag">
+            <label for="vrijdag">Vrijdag</label>
+            <input type="radio" name="dag" id="zaterdag">
+            <label for="zaterdag">Zaterdag</label>
+            <input type="radio" name="dag" id="zondag">
+            <label for="zondag">Zondag</label>
+        </fieldset>
+        <fieldset id="stapdatum">
+            <legend>Kies een datum</legend>
+            <input type="radio" name="datum" id="1ap">
+            <label for="1ap">1 <span class="maand"></span></label>
+            <input type="radio" name="datum" id="8ap">
+            <label for="8ap">8 <span class="maand"></span></label>
+            <input type="radio" name="datum" id="15ap">
+            <label for="15ap">15 <span class="maand"></span></label>
+            <input type="radio" name="datum" id="22ap">
+            <label for="22ap">22 <span class="maand"></span></label>
+            <input type="radio" name="datum" id="29ap">
+            <label for="29ap">29 <span class="maand"></span></label>
+        </fieldset>
+        <fieldset id="staptijdstip">
+            <legend>Kies een tijdstip</legend>
+            <input type="time" id="appt" name="appt" required>
+        </fieldset>
+        <fieldset>
+            <legend>Selecteer het vertrek en eindstation</legend>
+            <label for="beginStation">Vertrek vanaf:</label>
+            <input list="beginStation">
+            <label for="eindStation">Vertrek naar:</label>
+            <input list="eindStation">
+            <datalist id="beginStation">
+                <option>Amsterdam Centraal</option>
+                <option>Amsterdam Schiphol</option>
+                <option>Haarlem</option>
+                <option>Leiden Centraal</option>
+                <option>Utrecht</option>
+                <option>Eindoven</option>
+                <option>Gouda</option>
+                <option>Delft</option>
+                <option>Rotterdam Centraal</option>
+                <option>Rotterdam Blaak</option>
+                <option>Schiedam</option>
+                <option>Den Haag Laan van NOI</option>
+                <option>Den Haag Centraal</option>
+                <option>Den Haag Holland Spoor</option>
+                <option>Alkmaar</option>
+                <option>Apeldoorn</option>
+                <option>Amersfoort</option>
+                <option>Arnhem Centraal</option>
+                <option>Assen</option>
+                <option>Almere</option>
+                <option>Zwolle</option>
+                <option>Groningen</option>
+                <option>Leeuwarden</option>
+                <option>Maastricht</option>
+                <option>Heerenveen</option>
+                <option>Vlissingen</option>
+                <option>Oss</option>
+                <option>Weert</option>
+                <option>Venlo</option>
+                <option>Den Bosch</option>
+                <option>Breda</option>
+              </datalist>
+              <datalist id="eindStation">
+                <option>Amsterdam Centraal</option>
+                <option>Amsterdam Schiphol</option>
+                <option>Haarlem</option>
+                <option>Leiden Centraal</option>
+                <option>Utrecht</option>
+                <option>Eindoven</option>
+                <option>Gouda</option>
+                <option>Delft</option>
+                <option>Rotterdam Centraal</option>
+                <option>Rotterdam Blaak</option>
+                <option>Schiedam</option>
+                <option>Den Haag Laan van NOI</option>
+                <option>Den Haag Centraal</option>
+                <option>Den Haag Holland Spoor</option>
+                <option>Alkmaar</option>
+                <option>Apeldoorn</option>
+                <option>Amersfoort</option>
+                <option>Arnhem Centraal</option>
+                <option>Assen</option>
+                <option>Almere</option>
+                <option>Zwolle</option>
+                <option>Groningen</option>
+                <option>Leeuwarden</option>
+                <option>Maastricht</option>
+                <option>Heerenveen</option>
+                <option>Vlissingen</option>
+                <option>Oss</option>
+                <option>Weert</option>
+                <option>Venlo</option>
+                <option>Den Bosch</option>
+                <option>Breda</option>
+              </datalist>
+
+        </fieldset>
+        <button>Zoek een reis</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
