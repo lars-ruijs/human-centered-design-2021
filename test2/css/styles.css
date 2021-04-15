@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Oswald:wght@400;600&family=Staatliches&display=swap");
+
+html {
+  margin: 0;
+  background: url("/test2/images/background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Metal Mania", fantasy;
+  color: white;
+  font-size: 7em;
+  margin: 0.5em 0 0.1em 0;
+}
+
+h1 span {
+  margin-top: -0.5em;
+  display: block;
+  font-size: 0.6em;
+  color: #d83030;
+}
+
+h2 {
+  font-family: "Metal Mania", fantasy;
+  color: white;
+  font-size: 1.8em;
+  margin: 0.6em 0 0.6em 0;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 1.1em;
+  letter-spacing: 0.02em;
+}
+
+label[for="arrival"],
+label[for="departure"],
+label[for="departtime"] {
+  color: white;
+  display: block;
+  margin: 0 0.5em;
+  font-family: "Metal Mania", sans-serif;
+  font-size: 1.8em;
+  line-height: 2.1em;
+}
+
+label select {
+  margin-top: 2rem;
+  display: block;
+  appearance: none;
+  background-color: rgb(49, 49, 49);
+  border: none;
+  padding: 0.8em 1.3em;
+  margin: 0;
+  width: 100%;
+  font-size: 0.8em;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+label {
+  color: white;
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.35em;
+  line-height: 0.1em;
+  margin: 0 0.5em;
+}
+
+section.dayselection section label {
+  margin: 1em 0;
+}
+
+input[type="time"] {
+  display: block;
+  margin: 0 auto;
+}
+
+section.fromto {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 0em;
+}
+
+button,
+a {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #d83030;
+  border-radius: 99em;
+  border: 1px solid #b82020;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  padding: 1.2em 2em;
+  text-decoration: none;
+}
+
+a {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.1em;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.hide {
+  display: none;
+}
