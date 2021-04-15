@@ -34,6 +34,9 @@ departureSelect.addEventListener("input", (event) => {
     else if(event.target.value === "Eindhoven Centraal") {
         arrivalSelect.value = "Amsterdam Centraal";
     }
+    else if(event.target.value === arrivalSelect.value) {
+        arrivalSelect.value = "Eindhoven Centraal";
+    }
 
     changeURL();
 });
@@ -45,7 +48,9 @@ arrivalSelect.addEventListener("input", (event) => {
     else if(event.target.value === "Eindhoven Centraal") {
         departureSelect.value = "Amsterdam Centraal";
     }
-    
+    else if(event.target.value === departureSelect.value) {
+        departureSelect.value = "Eindhoven Centraal";
+    }
     changeURL();
 });
 
