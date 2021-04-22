@@ -9,6 +9,8 @@ const daySelection = document.querySelector("section.dayselection");
 
 const submitButton = document.querySelector("form[name='homework'] a:last-of-type");
 
+const location1 = document.querySelector("button.location.l1");
+
 changeURL();
 daySelection.classList.add("hide");
 
@@ -16,16 +18,22 @@ homeWorkForm.addEventListener("submit", (event) => {
     event.preventDefault();
 });
 
-
-switchButton.addEventListener("click", (event) => {
-    const departureStation = departureSelect.value;
-    const arrivalStation = arrivalSelect.value;
-
-    departureSelect.value = arrivalStation;
-    arrivalSelect.value = departureStation;
-
-    changeURL();
+location1.addEventListener("click", (event) => {
+    navigator.geolocation.getCurrentPosition(success, error);
 });
+
+function success(position) {
+    console.log(position);
+    const lat  = position.coords.latitude;
+    const long = position.coords.longitude;
+
+    
+    console.log(lat, long);
+}
+
+function error(err) {
+    console.log(err);
+}
 
 departureSelect.addEventListener("input", (event) => {
     if(event.target.value === "Amsterdam Centraal") {
@@ -44,10 +52,6 @@ departureSelect.addEventListener("input", (event) => {
 arrivalSelect.addEventListener("input", (event) => {
     if(event.target.value === "Amsterdam Centraal") {
         departureSelect.value = "Eindhoven Centraal";
-        const input = document.querySelector("input#current");
-        input.removeAttribute("checked");
-        const input2 = document.querySelector("input#nextday");
-        input2.setAttribute("checked", "");
     }
     else if(event.target.value === "Eindhoven Centraal") {
         departureSelect.value = "Amsterdam Centraal";

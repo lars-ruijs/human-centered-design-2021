@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Marijn met de trein</title>
+</head>
+<body>
+    <main>
+        <h1>Trein <span>planner</span></h1>
+        <form name="homework" action="#">
+            <section class="fromto">
+                <label for="departure">Vertrek
+                    <select name="departure" id="departure">
+                        <option value="Amsterdam Centraal" selected>Werk</option>
+                        <option value="Eindhoven Centraal">Thuis</option>
+                        <option value="Alkmaar">Alkmaar</option>
+                        <option value="Almere Centrum">Almere Centrum</option>
+                        <option value="Alphen aan den Rijn">Alphen aan den Rijn</option>
+                        <option value="Amersfoort Centraal">Amersfoort Centraal</option>
+                        <option value="Amsterdam Centraal">Amsterdam Centraal</option>
+                        <option value="Amsterdam Amstel">Amsterdam Amstel</option>
+                        <option value="Amsterdam Bijlmer Arena">Amsterdam Bijlmer Arena</option>
+                        <option value="Amsterdam Sloterdijk">Amsterdam Sloterdijk</option>
+                        <option value="Apeldoorn">Apeldoorn</option>
+                        <option value="Arnhem">Arnhem</option>
+                        <option value="Breda">Breda</option>
+                        <option value="Delft">Delft</option>
+                        <option value="Den Bosch">Den Bosch</option>
+                        <option value="Deventer">Deventer</option>
+                        <option value="Eindhoven Centraal">Eindhoven</option>
+                        <option value="Enkhuizen">Enkhuizen</option>
+                        <option value="Haarlem">Haarlem</option>
+                        <option value="Hoorn">Hoorn</option>
+                        <option value="Maastricht">Maastricht</option>
+                        <option value="Nijmegen">Nijmegen</option>
+                        <option value="Schiphol Airport">Schiphol Airport</option>
+                        <option value="Tilburg">Tilburg</option>
+                        <option value="Utrecht Centraal">Utrecht Centraal</option>
+                        <option value="Vlissingen">Vlissingen</option>
+                        <option value="Zaandam">Zaandam</option>
+
+                    </select>
+                </label>
+                <button class="location l1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                </button>
+                <label for="arrival">Aankomst
+                    <select name="arrival" id="arrival">
+                        <option value="Amsterdam Centraal">Werk</option>
+                        <option value="Eindhoven Centraal" selected>Thuis</option>
+                        <option value="Alkmaar">Alkmaar</option>
+                        <option value="Almere Centrum">Almere Centrum</option>
+                        <option value="Alphen aan den Rijn">Alphen aan den Rijn</option>
+                        <option value="Amersfoort Centraal">Amersfoort Centraal</option>
+                        <option value="Amsterdam Centraal">Amsterdam Centraal</option>
+                        <option value="Amsterdam Amstel">Amsterdam Amstel</option>
+                        <option value="Amsterdam Bijlmer Arena">Amsterdam Bijlmer Arena</option>
+                        <option value="Amsterdam Sloterdijk">Amsterdam Sloterdijk</option>
+                        <option value="Apeldoorn">Apeldoorn</option>
+                        <option value="Arnhem">Arnhem</option>
+                        <option value="Breda">Breda</option>
+                        <option value="Delft">Delft</option>
+                        <option value="Den Bosch">Den Bosch</option>
+                        <option value="Deventer">Deventer</option>
+                        <option value="Eindhoven Centraal">Eindhoven</option>
+                        <option value="Enkhuizen">Enkhuizen</option>
+                        <option value="Haarlem">Haarlem</option>
+                        <option value="Hoorn">Hoorn</option>
+                        <option value="Maastricht">Maastricht</option>
+                        <option value="Nijmegen">Nijmegen</option>
+                        <option value="Schiphol Airport">Schiphol Airport</option>
+                        <option value="Tilburg">Tilburg</option>
+                        <option value="Utrecht Centraal">Utrecht Centraal</option>
+                        <option value="Vlissingen">Vlissingen</option>
+                        <option value="Zaandam">Zaandam</option>
+                    </select>
+                </label>
+                <button class="location l2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                </button>
+            </section>
+            <h2>Wanneer wil je gaan?</h2>
+            <section class="fromto">
+                <label for="current">
+                    <input type="radio" name="timeframe" id="current" value="current" checked>
+                    Zo snel mogelijk
+                </label>
+                <label for="nextday">
+                    <input type="radio" name="timeframe" id="nextday" value="nextday">
+                    Morgenochtend
+                </label>
+                <label for="other">
+                    <input type="radio" name="timeframe" id="other" value="other">
+                    Andere dag/tijd
+                </label>
+            </section>
+            <section class="dayselection">
+                <section>
+                </section>
+                    <input type="time" name="departtime" id="departtime" value="12:00">
+            </section>
+            <a href="#" target="_blank">Plan je reis</a>
+        </form>
+    </main>
+    <script src="js/script2.js"></script>
+</body>
+</html>
