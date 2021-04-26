@@ -176,7 +176,7 @@ function changeURL() {
         confirmation.textContent = `van ${departureSelect.value} naar ${arrivalSelect.value}, zo snel mogelijk`;
     }
     else if(selectedDay === "nextday") {
-        submitButton.href = `https://www.ns.nl/reisplanner/#/?vertrek=${departureSelect.value}&vertrektype=treinstation&aankomst=${arrivalSelect.value}&aankomsttype=treinstation&type=vertrek&tijd=${getDate(1)}T07:00`;
+        submitButton.href = `https://www.ns.nl/reisplanner/#/?vertrek=${departureSelect.value}&vertrektype=treinstation&aankomst=${arrivalSelect.value}&aankomsttype=treinstation&type=vertrek&tijd=${getDate(1)}T09:00`;
         confirmation.textContent = `van ${departureSelect.value} naar ${arrivalSelect.value}, morgenochtend`;
     }
     else if(selectedDay === "other") {

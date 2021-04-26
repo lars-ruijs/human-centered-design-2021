@@ -60,7 +60,7 @@ if(window.location.pathname === "/test3/test1.html") {
     });
     
     document.querySelector("a:first-of-type").href = `https://www.ns.nl/reisplanner/#/?vertrek=Amsterdam Centraal&vertrektype=treinstation&aankomst=Eindhoven Centraal&aankomsttype=treinstation&type=vertrek&tijd=${getDate(0)}T${getTime()}`;
-    document.querySelector("a:nth-of-type(2)").href = `https://www.ns.nl/reisplanner/#/?vertrek=Eindhoven Centraal&vertrektype=treinstation&aankomst=Amsterdam Centraal&aankomsttype=treinstation&type=vertrek&tijd=${getDate(1)}T7:00`;    
+    document.querySelector("a:nth-of-type(2)").href = `https://www.ns.nl/reisplanner/#/?vertrek=Eindhoven Centraal&vertrektype=treinstation&aankomst=Amsterdam Centraal&aankomsttype=treinstation&type=vertrek&tijd=${getDate(1)}T9:00`;    
 }
 else if(window.location.pathname === "/test3/test1-anders.html") {
     changeURL();
