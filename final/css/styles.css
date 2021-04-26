@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Oswald:wght@300;400;600&family=Staatliches&display=swap");
+
+html {
+  margin: 0;
+  background: url("/final/images/background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Metal Mania", fantasy;
+  color: white;
+  font-size: 7em;
+  margin: -0.8em 0 0 1em;
+}
+
+h1 span {
+  margin-top: -0.6em;
+  display: block;
+  font-size: 0.63em;
+  color: #d83030;
+  position: relative;
+  z-index: -1;
+}
+
+h2 {
+  font-family: "Metal Mania", fantasy;
+  color: white;
+  font-size: 1.8em;
+  margin: 0.5em 0 0.5em 0;
+  text-align: center;
+}
+
+img.nslogo {
+  display: block;
+  margin: 4em 0 0 4em;
+  width: 21em;
+  z-index: 999;
+  position: relative;
+}
+
+/* p {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 1.1em;
+  letter-spacing: 0.02em;
+  margin-top: 1.5em;
+} */
+
+button,
+a {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #d83030;
+  border-radius: 99em;
+  border: 1px solid #b82020;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  padding: 1.2em 2em;
+  text-decoration: none;
+}
+
+a {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.1em;
+  margin: 1.5em auto 0 auto;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+  width: fit-content;
+  text-align: center;
+}
+
+form[name="travelbuttons"] {
+  margin: -13em 0 0 0;
+}
+
+form[name="travelbuttons"] a {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.1em;
+  text-transform: lowercase;
+}
+
+form[name="travelbuttons"] a:nth-of-type(2) {
+  background-color: #811f1f;
+  border: none;
+}
+
+form[name="travelbuttons"] a:last-of-type {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+form[name="travelbuttons"] a span {
+  font-weight: bold;
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+form[name="travelbuttons"] a span svg {
+  margin: 0 0.3em;
+}
+
+form[name="travelbuttons"] a span svg:first-of-type {
+  margin: 0 0.3em 0 0;
+}
+
+a:focus,
+form[name="travelbuttons"] a:nth-of-type(2):focus {
+  background-color: rgb(50, 177, 0);
+  outline: none;
+}
