@@ -1,136 +1,82 @@
-# Human Centered Design @cmda-minor-web 2021
-//Interactie ontwerpen: Rapid prototypen en testen met echte mensen
+# Human Centered Design 
+## Ontwerpen met en voor een echt mens
+Bij Human Centered Design hebben we een ontwerp gemaakt voor 1 echt mens, een exclusief design dus. Eigenlijk maken we minstens 3 ontwerpen die we elke week testen met de persoon waarvoor we het maken. Na iedere test itereren we het ontwerp waardoor het steeds verder wordt verbeterd en steeds beter past bij het echte mens.   
 
-Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijke interactieve toepassingen. 
+<br> 
 
-> What distinguishes Human-Centered Design from other problem-solving approaches is its obsessive focus on understanding the perspective of the person who experiences a problem, their needs, and whether the solution that has been designed for them is truly meeting their needs effectively or not. At its most effective, the very people who experience a problem the most are a constant part of the design process and when possible, become part of the design team itself. - [What Is Human-Centered Design?](https://medium.com/dc-design/what-is-human-centered-design-6711c09e2779)
+## Voor wie maak ik het?
+Het eindproduct maak ik voor Marijn Meijles. Marijn is een ervaren developer en vader van twee kinderen. Marijn zorgt er als developer voor dat alle metadata voor vrijwel alle muziekstreamingdiensten ter wereld kloppen. Marijn reist daarvoor (onder non-covid omstandigheden) regelmatig via de trein van zijn huis in Eindhoven naar zijn werk in Amsterdam. Bij NS vraagt hij daarvoor minimaal een uur van tevoren reizigers assistentie aan via een speciale portal.
 
-Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwerp. Een Frontend Designer en Developer heeft verstand van techniek, UX en design. Als je web technieken beheerst kun je je ideeën snel prototypen en testen in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
+Marijn heeft een motorische stoornis en hij heeft daardoor veel moeite met fijne motoriek. Hierdoor gebruikt hij zijn computer anders dan anderen mensen. Zo kan Marijn alleen zijn linkerhand gebruiken om zijn computer te besturen. Dit betekend voornamelijk dat hij de rechterkant van zijn toetsenbord en de trackpad van zijn MacBook gebruikt om te navigeren. Daarnaast maakt Marijn gebruik van plaktoetsen, waarmee het mogelijk is om commando’s zoals cmd+v te kunnen gebruiken zonder daarvoor beiden toetsen tegelijk in te drukken. 
 
-In het vak Human Centered Design gaan we dingen ontwerpen voor echte mensen. Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? Wat voor principes heb je gebruikt en getest? En is het leuk?
+Marijn is erg enthousiast en als echte nerd vindt hij het leuk om de edge cases van de prototypes op te zoeken (oftewel; hij maakt ze graag stuk). Marijn is daarnaast een metal fan en is niet dol op kleurtjes -- voor hem is het dark mode all the way!
 
+> Het volledige User Scenario is [hier](https://github.com/lars-ruijs/human-centered-design-2021/wiki/%F0%9F%91%A4--User-Scenario) te lezen.
 
-## Opdracht
+<br>
 
-### Ontwerpen met en voor echte mensen
+## Testen, testen, testen
+Dit vak draait om het testen met de persoon waarvoor je je oplossing ontwerpt. Door voorafgaand aan de test een prototype te bouwen en vragen voor te bereiden, ontdek je of je aannames en ideeën over de testpersoon kloppen. Zonder te testen of vragen te stellen aan Marijn, had ik nooit kunnen maken wat ik nu heb gemaakt. 
 
-Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. Een echt mens. Je moet je ontwerp 3 keer testen. Door te testen en te itereren ga je je ontwerp verbeteren. Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. Een _exclusive design_ ... Wie is deze persoon dan voor wie je dit gaat maken? Wat vindt deze persoon leuk of juist niet? En hoe bedient deze persoon een computer?
+Ik heb in totaal 3 tests gedaan. Voor iedere test heb ik een testverslag geschreven waarin ik heb beschreven wat ik heb gemaakt, wat ik heb veranderd t.o.v. de vorige test, wat de nieuwe inzichten zijn en wat de conclusie is. Ook beschrijf ik aan het eind wat mijn vervolgstappen zijn om het ontwerp verder te verbeteren. De 3 testverslagen zijn [hier](https://github.com/lars-ruijs/human-centered-design-2021/wiki/1%EF%B8%8F%E2%83%A3--Test-1) te lezen.  
 
-- [Opdracht - Ontwerpen met en voor echte mensen](course/Opdracht.md)
+<br>
 
+## Exclusive design
+Het ontwerp dat ik heb gemaakt is exclusief ontworpen voor Marijn. Ik heb hierbij gebruik gemaakt van de [Exclusive Design Principles](https://exclusive-design.vasilis.nl/) van Vasilis van Gemert. Hieronder geef ik een korte toelichting op wat deze principes inhouden: 
 
-### Leerdoelen
+### Study situation
+Om een goed beeld te kunnen krijgen van hoe iemand je ontwerp gebruikt, is het belangrijk om te bestuderen hoe iemand zich gedraagt. In welke context bevindt de gebruiker zich? Hoe navigeert hij door zijn computer en door het web? Hoe zit iemand voor zijn device, hoe wordt de muis en het toetsenbord benut? Je zult er zeer waarschijnlijk snel achter komen dat je aannames over iemand met een beperking niet juist zijn.
 
-- _Leren hoe je (design) principles in een ontwerp kan toepassen._
-- _User needs begrijpen en gebruiken in je ontwerp._
-- _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
+### Ignore Conventions
+Er wordt vaak geleerd dat het belangrijk is om design principes/standaarden te gebruiken die mensen herkennen. Geldt dit ook voor mensen met een beperking? Grote kans dat deze standaarden daar niet goed werken of moeten worden aangepast. Het is dus belangrijk om te kijken welke standaarden niet geldig zijn nadat je de situatie van de gebruiker hebt bestudeerd. 
 
-[Rubric](https://docs.google.com/spreadsheets/d/1no32c9YyAP78VMcqfA5i5at2OrxP9ce1d8dVGnii4Vs/)
+### Prioritise Identity
+Dingen op het web zijn gemaakt door designers en developers. De identiteit en aannames van ontwerpers zijn soms te veel aanwezig in een ontwerp en die van de gebruiker juist te weinig. Door mensen met een beperking een actieve rol te laten spelen in het ontwerpproces kun je het ontwerp beter laten aansluiten op wat deze gebruikers echt willen. 
 
+### Add nonsense
+Nonsens toevoegen is een manier om het onbekende te onderzoeken. Hoe kun je het ontwerp meer dan alleen aangenaam maken? Hoe kun je er een positieve herinnering van maken? Nonsens kan iets kleins en grappigs zijn, maar kan ook verder worden doorgetrokken door extreme ideeën uit te proberen. 
 
+<br>
 
-## Planning & programma
+## Toegepast Exclusive Design
+De exclusive design principles heb ik toegepast in mijn ontwerp voor Marijn. Hieronder heb ik beschreven op welke manier ik deze heb toegepast:
 
-| Planning  | Woensdag  |  Donderdag | Vrijdag  |
-|---|---|---|---|
-| [Week 1](#week-1)  | Intro, College inclusive design + Testen | Gastcollege + Testen | ~~Feedbackgesprekken~~ |
-| [Week 2](#week-2)  | College over testen + Testen  | Gastcollege + Testen | Feedbackgesprekken  |
-| [Week 3](#week-3)  | College + Testen  |  Gastcollege + Testen | Feedbackgesprekken  |
-| [Week 4](#week-4)  | Presentaties + Beoordelingsgesprekken | Beoordelingsgesprekken | Beoordelingsgesprekken + Weekly Nerd |
+### Study Situation
+Voorafgaand aan de allereerste test met Marijn hebben we gezamenlijk een prototype gemaakt. Deze was grotendeels gebaseerd op aannames over hoe iemand met een motorische beperking zijn computer gebruikt. Zo verwachtte ik persoonlijk niet dat het voor Marijn mogelijk zou zijn om zijn muis te bedienen. Ik verwachtte dat hij de tab-toets zou gebruiken om te navigeren of misschien zelfs een speciale tool die ik nog nooit eerder had gezien. Daarnaast bedachten we voor het eerste prototype gewoon zo veel mogelijk manieren om een datum in te vullen, omdat we verwachtte dat dit erg lastig was voor Marijn. Na de kennismaking en eerste test bleken veel van deze aannames helemaal niet juist te zijn. Doordat Vasilis de camera van zijn MacBook op de werkplek van Marijn richtte, konden we goed zien hoe Marijn achter zijn computer zit. Marijn hield zijn rechterhand dicht bij zijn borstkas en gebruikte voornamelijk de wijsvinger van zijn linkerhand om op zijn trackpad de muis te besturen. Door zijn motorische beperking wisselt Marijn ook veel van lichaamshouding. Soms zit zijn gezicht dicht bij het scherm en soms is zijn hoofd juist naar achter gekanteld. Marijn gebruikte zijn computer dus weliswaar anders, maar kon goed overweg met zijn trackpad en had juist een hekel aan het gebruik van de tab-toets. Ook door vragen aan Marijn te stellen kwamen we veel meer over hem te weten. Bijvoorbeeld over waarom en wanneer hij de datumprikker wilt gebruiken en over de shortcuts van zijn favoriete code editor VIM. 
 
+<img src="https://user-images.githubusercontent.com/60745347/116534445-d2f0be00-a8e2-11eb-888b-0f240a2bf36c.png" width="50%" margin="2em 0" />
 
+Ik heb deze inzichten gebruikt om mijn prototypes te verbeteren. Zo heb ik in mijn laatste versie knoppen gemaakt waarmee Marijn in één keer zijn meest populaire reizen kan plannen. Het formulier voor het inplannen van een andere reis is aangepast aan de situatie van Marijn. Alle elementen staan onder elkaar, omdat dit voor Marijn makkelijker te bedienen is. De verticale afstand op zijn trackpad is immers korter dan de horizontale afstand. Ook worden in de lijst met stations niet alle stations getoond, maar wel de grote stations die reisassistentie bieden. Naast bediening met de muis, is het prototype ook te bedienen met de navigatie shortcuts van VIM.  
 
-### Week 1
-Deze week krijg je een college over _Exclusive Design Principles_. Deze Principles ga je toepassen in de opdracht. Op woensdag gaan we kennis maken met de echte mensen voor wie we gaan ontwerpen. Je kan dan al een kleine interactieve demo maken om te testen.
+Zonder in gesprek te gaan met de gebruiker en te bestuderen hoe hij zijn computer gebruikt had ik alleen op mijn eigen aannames ontworpen en had de oplossing dus niet prettig geweest voor de gebruiker. 
 
-#### Woensdag 7 april
-Woensdag is de eerste les van het vak Human Centered Design. Je krijgt een intro college over het vak en Vasilis gaat vertellen over _Exclusive Design_.
+### Ignore Conventions
+Een van de standaard conventies die ik heb genegeerd (naar aanleiding van het bestuderen van de gebruikerssituatie) is het gebruik van de tab-toets. Ik ging er vanuit dat mensen die moeite hebben met het bedienen van een muis automatisch de tab-toets zouden gebruiken. Dit was bij Marijn juist niet het geval, hij gebruikt de tab-toets liever helemaal niet. Een andere standaard conventie die ik heb genegeerd is dat een gebruiker in staat is om te typen. Marijn heeft erg veel moeite met het intypen van stukken tekst. Toen Marijn tijdens de eerste test een reis ging plannen via de NS site, zagen we dat hij slechts één letter van een station intypt, zodat hij de mogelijkheid heeft om daarna een station met zijn muis aan te klikken. Ik heb er daarom in mijn ontwerp voor gekozen om een dropdown-lijst met stations te maken. Een dropdown is voor gebruikers die zelf kunnen typen en in een lijst willen zoeken wellicht niet de goede oplossing, maar voor Marijn juist wel. Hij kan een dropdown namelijk volledig met de muis bedienen. Hij hoeft zijn hand dus niet meer van het trackpad naar het toetsenbord te bewegen. 
 
-Daarna prototypen en testen
+### Prioritise Identity
+Doordat we regelmatig met Marijn hebben kunnen testen, is hij actief onderdeel geworden van het ontwerpproces. Ik heb een exclusief product voor Marijn gemaakt, dus het is belangrijk dat het past bij waar Marijn naar op zoek is en bij wie hij als persoon is. In het ontwerp van mijn applicatie heb ik rekening gehouden met de persoonlijke interesses van Marijn. Zou houdt Marijn veel van dark-mode en luistert hij graag naar metal als muziek. Ik heb de applicatie een donkere, mysterieuze, achtergrond gegeven en de lettertypes aangepast aan een heavy metal style. Ook het logo van NS heb ik customized, zodat het beter bij Marijn past. Verder heb ik rekening gehouden met het feit dat hij de VIM code editor gebruikt. De sneltoetsen die daarin beschikbaar zijn voor navigatie, zijn ook geïmplementeerd in het prototype.    
 
-- 14:00 Groep Darice
-- 15:00 Groep Eric
+<img src="https://user-images.githubusercontent.com/60745347/116557624-e578f080-a8fe-11eb-89c4-b5819adde873.png" width="50%" margin="2em 0" />
 
-#### Donderdag 8 april
-Donderdag begint de les met een gastcollege. Deze les gaan we het artikelen [Exclusive Design van Vasilis van Gemert](https://exclusive-design.vasilis.nl/) bespreken.
+### Add nonsense
+Tijdens de allereerste test werd al duidelijk dat Marijn erg slim is en veel humor heeft. De prototypes werden meteen tot het uiterste getest en gingen allemaal direct al stuk. Het werd voor mij duidelijk dat Marijn het belangrijk vindt dat we als ontwerpers goed nadenken over de dingen die we maken. Het plannen van en naar hetzelfde station kan niet. 31 februari bestaat niet. 99-99-9999 is geen geldige datum - waarom kun je eigenlijk een jaartal invullen? Al die situaties vragen een goede oplossing. Marijn vind het leuk om dat te testen. Om hierop in te spelen heb ik in mijn prototype “levens” gegeven aan Marijn. Iedere keer als hij iets probeert stuk te maken, corrigeer ik het én gaat er een leven vanaf. Als alle levens op zijn explodeert de website en is het succesvol stukgemaakt. Tijdens de laatste test met Marijn bleek hij dit erg leuk te vinden, hij moest er goed om lachen. Op deze manier heb ik in mijn app goed nagedacht over de edge cases, en maak ik er voor Marijn een plezierige ervaring van als hij het heeft gevonden. 
 
-Daarna prototypen en testen
+<br>
 
-- 10:30 Groep Roger 
-- 16:30 Groep Marijn
+# Conclusie
+Ik heb met veel plezier samengewerkt met Marijn om voor hem een tailor made trein planner te ontwerpen. Het was erg interessant om er achter te komen hoe Marijn zijn computer gebruikt en om te zien waar hij tegenaan loopt. Toen we voor de allereerste test een ontwerp gingen maken had ik allerlei aannames in mijn hoofd over hoe iemand met een motorische beperking een computer zou gebruiken. Ik had verwacht dat Marijn zijn muis niet kon gebruiken en dan wel de tab-toets moest gebruiken om door sites te navigeren of misschien gebruikte hij wel een speciale tool? Ook de opdrachtbeschrijving bleek veel meer uitgebreid te zijn. In eerste instantie stond er dat we een datumprikker voor Marijn moest ontwerpen omdat hij de huidige een gepriegel zou vinden om te gebruiken. Eigenlijk bleek na de eerste test al dat Marijn wellicht helemaal geen “klassieke” datumprikker nodig had. De oplossing kon veel meer op Marijn worden afgestemd. 
 
+Soms was het ook wel lastig om speciaal voor één iemand te ontwerpen, want dat zijn we bij CMD eigenlijk niet gewend, dus het vereist een soort omschakeling in de manier hoe je denkt. De eerste stap van de Exclusive Design Principles is daarbij essentieel. Het is belangrijk om je gebruiker zo goed mogelijk te leren kennen en te bestuderen hoe hij door je ontwerp heen loopt. Vasilis en de gastspreker Johan Huijkman hebben duidelijk gemaakt dat het belangrijk is om de interactie zo simpel mogelijk te maken. Zeker in het geval van Marijn is dit belangrijk, omdat elke beweging omhoog, omlaag, naar links en naar rechts, erg intensief voor hem is. Dat betekend ook dat je opties weg kunt laten. Dat zou niet zomaar kunnen als je voor meerdere mensen ontwerpt. 
 
-#### Vrijdag 9 april
-Deze dag is voor Real-Time web...
+Verder heb ik ook veel geleerd van het testen. Het was erg fijn dat Vasilis erbij was om de test te faciliteren. We kregen op die manier een goed beeld van hoe Marijn zijn computer gebruikt wat in dit geval essentieel is om voor Marijn een goed ontwerp neer te kunnen zetten. Ook was het prettig om de test tegelijkertijd met anderen te doen. Je leert namelijk ook ontzettend veel van de testen die anderen doen. Zelfs als ze een andere use case onderzoeken. Soms hebben ze dingen bedacht waar je zelf niet aan toe bent gekomen om uit te werken of ontdek je nieuwe inzichten over de testpersoon. Ook heb ik geleerd dat het verstandig is om meerdere versies van je ontwerp te maken. Show, don’t tell, werkt het best om aannames en nieuwe ideeën te testen. Het was soms lastig om dit in de korte tijd te doen. 
 
-
-### Week 2
-Deze week heb je het tweede gesprek met je mens. Wat ga je testen? Wat wil je weten? 
-
-#### Woensdag 14 april
-Woensdag krijg je een college over testen. Voor deze les moet je het artikel [10 Usability Lessons van Steve Krug](https://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/) lezen.
-
-Daarna voor de tweede keer prototypen en testen
-
-- 14:00 Groep Darice 
-- 15:00 Groep Eric
-
-#### Donderdag 15 april
-Donderdag begint de les met een gastcollege van Marie van Driessche. 
-
-Daarna voor de tweede keer prototypen en testen
-
-- 10:30 Groep Roger 
-- 16:00 Groep Marijn
-
-#### Vrijdag 16 april
-Vrijdag zijn er coachgesprekken in teams.
-
-
-
-
-### Week 3
-In week 3 gaan we verder met testen, itereren en reflecteren. Deze week is de laatste sessie met je mens. 
-
-#### Woensdag 21 april
-Woensdag beginnen we met een college. Voor deze les moet je dit artikel lezen: [How User Scenarios Help To Improve Your UX van Sabina Idler](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/).
-
-Daarna gaan we voord de laatste keer prototypen en testen
-
-- 14:00 Groep Darice 
-- 15:00 Groep Eric
-
-#### Donderdag 22 april
-Donderdag begint de les met een gastcollege van Johan Huijkman.
-
-Daarna gaan we voord de laatste keer prototypen en testen
-
-- 10:30 Groep Roger 
-- 16:00 Groep Marijn
-
-
-#### Vrijdag 23 april
-Vrijdag zijn er coachgesprekken.
-
-
-
-
-### Week 4
-
-Deze week hebben we een gesprek waarin we je vorderingen en bevindingen bespreken. We verwachten dat je op Github je tests en iteraties hebt beschreven. Belangrijk is dat je reflecteert op de leerdoelen van het vak. 
-
-
-#### Woensdag 28 april
-Teampresentaties en beoordelingsgesprekken. 
-
-#### Donderdag 29 april
-Beoordelingsgesprekken
-
-#### Vrijdag 30 april
-Beoordelingsgesprekken + Weekly Nerd
-
-
-
+### Wat is belangrijk bij een test?:
+- Ontwikkel meerdere (kleine) prototypes om aannames en ideeën te testen
+- Bereid vragen voor waar je antwoorden op wilt
+- Bedenk opdrachten waarvan je wilt dat die worden getest
+- Soms is het goed om even niets te zeggen en puur te kijken naar hoe de testpersoon je ontwerp gebruikt
+- Let goed op bij testen van anderen, want je zult er zeker iets van leren. 
 
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
