@@ -218,7 +218,7 @@ section.hearts ul li img {
 }
 
 section.dagtijd div:first-of-type {
-  margin-left: -2.2em;
+  margin-left: -1em;
 }
 
 section.dagtijd div:last-of-type {
@@ -253,4 +253,13 @@ section.dead {
 #terminal {
   white-space: pre;
   display: inline;
+}
+
+@media screen and (max-width: 1100px) {
+  form[name="travelbuttons"] {
+    margin: 3em 0;
+  }
+  form[name="homework"] {
+    margin: 3em 0;
+  }
 }
