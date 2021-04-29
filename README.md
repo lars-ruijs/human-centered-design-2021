@@ -73,7 +73,7 @@ Tijdens de allereerste test werd al duidelijk dat Marijn erg slim is en veel hum
 
 <br>
 
-# Conclusie
+## Conclusie
 Ik heb met veel plezier samengewerkt met Marijn om voor hem een tailor made trein planner te ontwerpen. Het was erg interessant om er achter te komen hoe Marijn zijn computer gebruikt en om te zien waar hij tegenaan loopt. Toen we voor de allereerste test een ontwerp gingen maken had ik allerlei aannames in mijn hoofd over hoe iemand met een motorische beperking een computer zou gebruiken. Ik had verwacht dat Marijn zijn muis niet kon gebruiken en dan wel de tab-toets moest gebruiken om door sites te navigeren of misschien gebruikte hij wel een speciale tool? Ook de opdrachtbeschrijving bleek veel meer uitgebreid te zijn. In eerste instantie stond er dat we een datumprikker voor Marijn moest ontwerpen omdat hij de huidige een gepriegel zou vinden om te gebruiken. Eigenlijk bleek na de eerste test al dat Marijn wellicht helemaal geen “klassieke” datumprikker nodig had. De oplossing kon veel meer op Marijn worden afgestemd. 
 
 Soms was het ook wel lastig om speciaal voor één iemand te ontwerpen, want dat zijn we bij CMD eigenlijk niet gewend, dus het vereist een soort omschakeling in de manier hoe je denkt. De eerste stap van de Exclusive Design Principles is daarbij essentieel. Het is belangrijk om je gebruiker zo goed mogelijk te leren kennen en te bestuderen hoe hij door je ontwerp heen loopt. Vasilis en de gastspreker Johan Huijkman hebben duidelijk gemaakt dat het belangrijk is om de interactie zo simpel mogelijk te maken. Zeker in het geval van Marijn is dit belangrijk, omdat elke beweging omhoog, omlaag, naar links en naar rechts, erg intensief voor hem is. Dat betekend ook dat je opties weg kunt laten. Dat zou niet zomaar kunnen als je voor meerdere mensen ontwerpt. 
@@ -85,8 +85,23 @@ Verder heb ik ook veel geleerd van het testen. Het was erg fijn dat Vasilis erbi
 - Bereid vragen voor waar je antwoorden op wilt
 - Bedenk opdrachten waarvan je wilt dat die worden getest
 - Soms is het goed om even niets te zeggen en puur te kijken naar hoe de testpersoon je ontwerp gebruikt
-- Let goed op bij testen van anderen, want je zult er zeker iets van leren. 
+- Let goed op bij testen van anderen, want je zult er zeker iets van leren.
 
+<br>
+
+## 📚 Bronnen
+Ik heb de onderstaande bronnen gebruikt:
+
+- **Exclusive Design Principles** artikel over de principes van exclusief design, geschreven door Vasilis van Gemert. Lees het artikel [hier](https://exclusive-design.vasilis.nl/). 
+- **Informatie over User Scenarios** een artikel van de Interaction Design Foundation over het opstellen van een goed user scenario. Lees het artikel [hier](https://www.interaction-design.org/literature/topics/user-scenarios)
+- **NS Reisassistentie** aanvullende informatie over wat NS reisassistentie is. Lees de informatie [hier](https://www.ns.nl/reisinformatie/reizen-met-een-beperking/ns-reisassistentie.html).
+- **Overzicht van NS stations met reisassistentie** kaart met stations samengesteld door de NS. Bekijk de kaart [hier](https://www.ns.nl/binaries/_ht_1591599227508/content/assets/ns-nl/stationsinformatie/overzicht-stations-met-reisassistentie.pdf)
+- **Dagen toevoegen aan datum** code voorbeeld geraadpleegd van een artikel op [DelftStack](https://www.delftstack.com/howto/javascript/javascript-add-days-to-date/). 
+- **Lijst met VIM keyboard shortcuts** een artikel met alle (navigatie) shortcuts die worden gebruikt in de VIM editor. Bekijk alle shortcuts [hier](https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/).
+- **Iconen** gebruikt op de startpagina (code, huisje en verrekijker) en icoon gebruikt op de planner pagina (twee pijltjes), zijn afkomstig van [Iconmonstr](https://iconmonstr.com/). 
+- **Explosie GIF** animatie afkomstig van [ACEGif](https://acegif.com/wp-content/uploads/gif-explosion-54.gif).
+- **Geluidsfragment explosie** gedownload als "Explosion 7" van [FreeSoundEffects.com](https://www.freesoundeffects.com/free-sounds/explosion-10070/).
+- **Achtergrond afbeelding** oorspronkelijke foto gemaakt door Anandu Vinod via [Unsplash](https://unsplash.com/photos/pbxwxwfI0B4) (zelf bewerkt). 
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
