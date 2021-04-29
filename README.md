@@ -11,7 +11,16 @@ Marijn heeft een motorische stoornis en hij heeft daardoor veel moeite met fijne
 
 Marijn is erg enthousiast en als echte nerd vindt hij het leuk om de edge cases van de prototypes op te zoeken (oftewel; hij maakt ze graag stuk). Marijn is daarnaast een metal fan en is niet dol op kleurtjes -- voor hem is het dark mode all the way!
 
-> Het volledige User Scenario is [hier](https://github.com/lars-ruijs/human-centered-design-2021/wiki/%F0%9F%91%A4--User-Scenario) te lezen.
+Het volledige User Scenario is [hier](https://github.com/lars-ruijs/human-centered-design-2021/wiki/%F0%9F%91%A4--User-Scenario) te lezen.
+
+<br>
+
+## Wat heb ik gemaakt?
+![image](https://user-images.githubusercontent.com/60745347/116562719-b4e78580-a903-11eb-9a02-0a8d6b48bd8d.png)
+
+Ik heb een tailor made reisplanner voor Marijn ontworpen waar hij op een zo toegankelijk mogelijke manier zijn reis kan inplannen. Hierbij heb ik rekening gehouden met een aantal defaults die Marijn met grote regelmaat zal gebruiken. Met één druk op de knop kan hij een reis plannen naar huis of werk. Wanneer Marijn op avontuur wil kan hij uiteraard ook andere stations en tijdstippen selecteren. De elementen op de pagina's staan onder elkaar, zodat Marijn met zijn vinger minder afstand over zijn trackpad hoeft af te leggen. Tevens zijn alle elementen ook via de pijltjestoetsen en de VIM shortcuts J en K te gebruiken.  
+
+Mijn laatste prototype is [hier](https://elastic-lewin-ef1d4c.netlify.app/final/) te bekijken. 
 
 <br>
 
